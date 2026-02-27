@@ -1,0 +1,33 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "label": "Full Name",
+      "hint": "Enter your full name",
+      "required": true
+    },
+    {
+      "type": "email",
+      "label": "Email Address",
+      "hint": "Enter your email",
+      "required": true
+    },
+    {
+      "type": "phone",
+      "label": "Phone Number",
+      "hint": "Enter your phone number",
+      "required": false
+    },
+    {
+      "type": "dropdown",
+      "label": "Gender",
+      "options": ["Male", "Female", "Other"],
+      "required": true
+    },
+    {
+      "type": "checkbox",
+      "label": "I agree to the terms and conditions",
+      "required": true
+    }
+  ]
+}
